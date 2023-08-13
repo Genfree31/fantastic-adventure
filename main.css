@@ -1,0 +1,81 @@
+
+a.disabled {
+    pointer-events: none;
+}
+
+/* .timer {
+    background-color:#419D78;
+    color:#EFD0CA;
+    font-size:20px;
+    text-align:center;
+    margin-bottom: 20px;
+} */
+
+.timer {
+    background-color:#419D78;
+    color:#EFD0CA;
+    font-size:20px;
+    text-align:center;
+    margin-bottom: 20px;
+    
+  }
+  
+
+
+/* HEADER */
+nav {
+    box-shadow: 0 0 20px #888;
+}
+nav img {
+    max-width: 3rem;
+}
+.nav-pills .show>.nav-link {
+    color: #007bff;
+    background-color: #fff;
+}
+
+/* form */
+form {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+ 
+.celula {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+.celula[disabled] {
+    background: #8f8e8e;
+}
+@media screen and (max-width: 660px) {
+    .celula {
+        width: 25px;
+        height: 25px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .celula {
+        width: 24px;
+        height: 22px;
+       
+    }
+    .col-lg-9.p-4.text-center {
+        padding: 0!important;
+        padding-top: 1.5rem!important;
+    }
+}
+.dica {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+.acerto {
+    background-color: #60ec60ce;
+}
+
